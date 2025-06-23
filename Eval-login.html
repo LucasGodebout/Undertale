@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undertale - Connexion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-png" href="Images/pngegg.png">
+    <script src="https://kit.fontawesome.com/06f087d34a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav>
+    <div id="menu">
+        <a href="index.html">A PROPOS DE</a>
+        <a href="Eval-demo.html">DÉMO</a>
+        <a>BOUTIQUE</a>
+        <a>BLOG</a>
+    </div>
+    <div id="flag">
+        <a>
+            <img src="Images/flag-us.png" alt="Anglais">
+        </a>
+        <a>
+            <img src="Images/flag-jp.png" alt="Japonais">
+        </a>
+    </div>
+    <div id="login">
+        <a href="Eval-login.html">
+            <i class="fa-solid fa-circle-user fa-xl"></i>
+        </a>
+    </div>
+</nav>
+<header>
+    <a href="index.html">
+        <img  id="logo" src="Images/logo.png" alt="logo du jeu">
+    </a>
+</header>
+<main>
+    <div class="content" id="start">
+        <p>Connectez vous à votre compte :</p>
+    </div>
+    <div id="connexion">
+        <div id="box">
+            <div id="dogo">
+                <img src="Images/dog.png" alt="chien ennuyeux">
+            </div>
+            <div id="form">
+                <form action="login" method="post">
+                    <p>* Email</p>
+                    <div class="heart">
+                        <img src="Images/pngegg.png" alt="coeur">
+                        <input class="Email-mdp" type="email" name="* Email" placeholder="Entrer votre Email..."
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"required>
+                    </div>
+                    <p>* Mot de passe</p>
+                    <div class="heart">
+                        <img src="Images/pngegg.png" alt="coeur">
+                        <input class="Email-mdp" type="password" name="Mot de Passe" placeholder="Entrer votre mot de passe..." minlength="8" autocomplete="current-password"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </div>
+                    <div id="button-login">
+                        <button type="submit">LOGIN</button>
+                    </div>
+                 </form>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+      <div id="f-txt">
+          <p id="trouble">Dépannage</p>
+          <p id="legal">Mention Légales</p>
+      </div>
+      <div id="rs">
+          <a href="https://twitter.com/undertale">
+              <img src="Images/twitter-logo.png" alt="Logo twitter">
+          </a>
+          <a href="https://undertale.tumblr.com/">
+              <img src="Images/tumblr-logo.png" alt="Logo Tumblr">
+          </a>
+          <a href="https://www.youtube.com/c/UNDERTALEOfficial">
+              <img src="Images/youtube-logo.png" alt="Logo Youtube">
+          </a>
+          <a href="https://store.steampowered.com/app/391540">
+              <img src="Images/social-steam.png" alt="Logo steam">
+          </a>
+      </div>
+  </footer>
+  </body>
+  </html>

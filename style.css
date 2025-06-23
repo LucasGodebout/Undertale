@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "Determination";
+    src: url(Font/DeterminationMonoWebRegular-Z5oq.ttf);
+}
+
+body{
+background-color: black;
+font-family: "Determination";
+font-size: 24px;
+color: white;
+margin: 0;
+min-height: 100vh;
+}
+nav{
+    background-color: #383838;
+    height:42px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #A1A1A1;
+}
+#menu{
+    width: 70%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-right: 48px;
+}
+#login{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    height: 42px;
+}
+a{
+    text-decoration: none;
+    color: #A1A1A1;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:60px ;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+p{
+    padding: 0 25%;
+    text-align: center;
+}
+#start.content{
+    margin-top: 30px;
+}
+.content-muted{
+    color: #777;
+}
+.content-trap{
+    margin-top: 36%;
+}
+.content-trap2{
+    margin-top: 14%;
+}
+.content-trap3{
+    margin-top: 12%;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#383838 ;
+    margin-top: 8%;
+    gap: 2%;
+    color: #A1A1A1;
+}
+#f-about{
+    background-color: black;
+    margin: 20px 0 60px;
+    gap: 2px;
+}
+#link{
+    margin-top: 3%;
+}
+#link a{
+    color: #FFEF06;
+    font-size: 30px;
+    gap: 20px;
+}
+.content-note{
+    margin-top: 2%;
+    font-size: 16px;
+}
+.content-note p{
+    margin-bottom: 0px;
+}
+.content-note .content-muted p{
+font-size: 12px;
+margin-top: 0px;
+}
+#footer-dog{
+    margin-top: -110px;
+    margin-left: 16px;
+    background-image: url(/Images/dog-bark.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+#footer-dog img{
+    max-width: 50px;
+}
+#footer-dog img:hover{
+    opacity: 0;
+}
+#f-txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#f-txt p{
+    margin: 0;
+    padding: 20px;
+}
+#box{
+    width: 65%;
+    display: flex;
+    border: solid white 7px;
+}
+#form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 20px;
+
+}
+#form p{
+    text-align: left;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 30px;
+}
+#form input{
+    background-color: black;
+    border: solid white 7px;
+    width: 80%;
+    font-family: "Determination";
+    font-size: 24px;
+    color: white;
+}
+#connexion{
+    margin-bottom: 152px;
+    display: flex;
+    justify-content: center;
+}
+#button-login{
+    position: absolute;
+    color: #FF892A;
+    border: solid #FF892A 7px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 445px;
+    padding: 0 20px;
+}
+
+#form button{
+    background-color: black;
+    color: #FF892A;
+    font-family: "Determination";
+    font-size: 36px;
+    border: 0;
+}
+form img{
+    max-width: 29px;
+}
+#dogo img{
+    padding: 10px;
+    max-width: 100%;
+}
+#dogo{
+    display: flex;
+    width: 25%;
+}
+.heart{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
+@media(max-width:768px) {
+    
+    #menu{
+        font-size: 24px;
+    }
+    #button-login{
+        margin: 40px 0 0 300px;
+    }
+    #login{
+        max-height: 30px;
+    }
+    #box{
+        width: 90%;
+    }
+    .content img{
+        width: 50%;
+    }
+    #footer img{
+        width: 100%;
+    }
+}
+@media(max-width:414px){
+    #menu{
+        font-size: 12px;
+        margin: 0 5px;
+    }
+    #flag img{
+        width:100%;
+    }
+    #flag{
+        display: flex;
+        gap: 2px;
+        margin: 0;
+    }
+    header img{
+        padding-left: 25%;
+        width: 50%;
+    }
+    .content img{
+        width: 75%;
+    }
+    p{
+        padding: 0 10px;
+        font-size: 18px;
+    }
+    #box{
+        flex-direction: column;
+    }
+    #dogo{
+        align-items: center;
+    }
+    #button-login{
+        margin: 40px 0 0 150px;
+    }
+    #login{
+        margin: 0 10px;
+    }
+}
